@@ -9,6 +9,16 @@ body {
     background-color: hsl(185, 75%, 39%);
 }
 
+h1 {
+    display: block;
+    font-size: 18px;
+    margin-top: 0.00em;
+    margin-bottom: 0.00em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
 .profile-image {
     width: 100px;
     height: 100px;
@@ -24,7 +34,6 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     background-color: #fff;
@@ -35,10 +44,38 @@ body {
     font-family: Kumbh Sans, sans-serif;
     font-size: 18px;
     font-weight: 700;
+    margin-block-start: 0px;
+}
+
+.age {
+    font-family: Kumbh Sans,
+        sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.profile-location {
+    font-family: Kumbh Sans,
+        sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
 }
 
 .profile-pattern-card {
     border-radius: 15px 15px 0px 0px;
 
     position: relative;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
 }
