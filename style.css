@@ -5,6 +5,9 @@ body {
     justify-content: center;
     align-items: center;
 
+    font-family: Kumbh Sans, sans-serif;
+    font-size: 18px;
+
     min-height: 100vh;
     background-color: hsl(185, 75%, 39%);
 
@@ -51,8 +54,7 @@ h1 {
 }
 
 .profile-name {
-    font-family: Kumbh Sans, sans-serif;
-    font-size: 18px;
+
     font-weight: 700;
     margin-block-start: 0px;
 }
@@ -66,15 +68,12 @@ h1 {
 }
 
 .profile-location {
-    font-family: Kumbh Sans,
-        sans-serif;
     font-weight: 400;
     color: hsl(0, 0%, 59%);
 }
 
 .profile-pattern-card {
     border-radius: 15px 15px 0px 0px;
-
     position: relative;
 }
 
@@ -83,6 +82,14 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding: 10px;
+}
+
+.info p {
+    color: hsl(0, 0%, 59%);
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
 }
 
 footer {
